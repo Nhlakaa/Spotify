@@ -1,0 +1,69 @@
+.library {
+	position            : relative;
+	width				: 75%;
+	height				: 100vh;
+	background-color	: #121212;
+	left				: 25%;
+}
+
+.library-nav {
+	position			: relative;
+	width				: 100%;
+	height				: 80px;
+	top				    : 2.5%;
+}
+
+.library-playlists {
+	position			: relative;
+	width				: 100%;
+	height				: 90vh;
+	top				    : 2.5%;
+}
+
+
+.library-nav-items {
+	position			: relative;
+	width				: 30%;
+	height				: 100%;
+	left				: 10px !important;
+	display				: block;
+}
+
+.library-nav-item {
+	position			: absolute;
+	width				: 49%;
+	height				: 100%;
+	font-size 			: 40px;
+	font-weight         : 355; 
+
+}
+.library-nav-item:nth-child(1) {
+	left 				: 0;
+	color               : white !important;
+
+}
+
+.library-nav-item:nth-child(2) {
+	top 				: 0 !important;
+	right               : 0 !important; 
+	
+	a {
+		color           : #D2D2D2 !important;
+	}
+}
+
+.lib-item {
+	color : white;
+}
+
+.library-nav-item a {
+	position 			: absolute;
+	width 				: 100%;
+	height  			: 100%;
+	margin 				: 0; 	
+	left 				: 0 !important;
+	display             : flex;
+	justify-content     : space-around flex-start;
+	align-items         : center; 	    
+}
+

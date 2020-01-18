@@ -1,0 +1,73 @@
+.connect {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-color: #121212;
+}
+.connect-spotify {
+	position: absolute;
+	left: 50%;
+	top: 80%;
+	width: 30%;
+	height: 45px;
+	background-color: #1DB954;
+	color: white;
+	border-radius: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 16px;
+	transition: 200ms ease-out;
+	transform: translate(-50%, 50%);
+
+	&:hover {
+		background-color: #1DB960 ;
+	    transition: 300ms ease-in;
+	};
+}
+
+.cover-image {
+	position: relative;
+	width: 100%;
+	height: 70vh;
+	overflow: hidden;
+	margin: 0;
+	left: 0;
+	top: 0;
+}
+
+.cover-image .after {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.8;
+}
+.cover-image img {
+	position: absolute;
+	top: -100px;
+	width: 100%;
+}
+
+.connect p {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	z-index: 5;
+	color: white;
+	font-size: 80px;
+	font-weight: bold;
+	transform: translate(-50%, -50%);
+}
+
+.connect .logo {
+	position: absolute;
+	top: 35%;
+	width: 70px;
+	height: 70px;
+	left: 50%;
+	z-index: 5;
+	color: white;
+	font-size: 80px;
+	font-weight: bold;
+	transform: translate(-50%, -50%);
+}

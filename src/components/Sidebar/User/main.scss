@@ -1,0 +1,155 @@
+.user-infomation {
+	position: relative;
+	width: 100%;
+	height: 52vh;
+	/*border: 1px solid white;*/
+	overflow: hidden;
+	pointer-events: none;
+}
+
+.user-recent-information {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	color: #D2D2D2;
+	/*border: 1px solid skyblue;*/
+}
+
+.recent-plays-title {
+	position: relative;
+	top: 0;
+	left: 20px;
+	width: 90%;
+	height: 40px;
+	/*border: 1px solid blue;*/
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.recent-plays-title p {
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	font-weight: 200;
+	/*border: 1px solid navy;*/
+	width: 200px;
+	height: 20px;
+}
+
+.played-content {
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	/*border: 1px solid red;*/
+	margin-top: 10px;
+}
+
+.content-title {
+	position: relative;
+	/*border: 1px solid skyblue;*/
+	height: 42%;
+	top: 0;
+	left: 20px;
+	width: 80%;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-weight: 355;
+	overflow: hidden;
+}
+
+.content-type {
+	position: relative;
+	/*border: 1px solid skyblue;*/
+	height: 45%;
+	margin-top: 1px;
+	bottom: 0;
+	left: 20px;
+	width: 70%;
+	font-size: 14px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.content-state {
+  position: absolute;
+  right: 20px;
+  width: 30px;
+  top: 0 !important;
+  height: 45%;
+  /*border: 1px solid blue;*/
+
+}
+
+.user-details {
+	position: relative;
+	width: 100%;
+	top: 26%;
+	height: 70px;
+	border: 1px solid lightgreen;
+}
+
+.user-content {
+	position: relative;
+	width: 80%;
+	height: 80%;
+	left: 10%;
+	top: 5%;
+	border-top: 1px solid lightgray;
+}
+
+.container-image {
+	position: absolute;
+	width: 20%;
+	height: 100%;
+	/*border: 1px solid red;*/
+	left: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.user-image {
+
+	width: 40px;
+	height: 40px;
+	background-color: gray;
+	border-radius: 100px;
+
+}
+
+.container-username {
+	position: absolute;
+	width: 80%;
+	height: 100%;
+	/*border: 1px solid darkred;*/
+	left: 20%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	overflow: hidden;
+}
+
+.user-name {
+	width: 100%;
+	height: 50%;
+	/*border: 1px solid red;*/
+	left: 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.user-name p {
+	margin-left: 10px;
+	color: white;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+}
+
+
+

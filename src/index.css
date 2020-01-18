@@ -1,0 +1,22 @@
+body {
+  font-family : 'tt_commonsregular';
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+
+}
+
+@font-face {
+    font-family: 'tt_commonsregular';
+
+    src: local('tt-webfont.woff2'),
+         url('./fonts/tt-webfont.woff2') format('woff2');
+
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p {
+	pointer-events: none;
+}
