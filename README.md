@@ -2,10 +2,13 @@
 Built by **Nhlakanipho Mkhabela**
 
 
-Using React to build the Spotify client-side 
+Using React to build the Spotify client-side
+
 Depending on Redux and Redux Thunk for state management and async actions
+
 Using Axios to communicate with the server
-Finally, using Node and Express to build the backend
+
+Finally - using Node and Express to build the backend
 
 [View live](https://thirsty-cray-5b0954.netlify.com)
 
